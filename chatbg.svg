@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="303" height="630" viewBox="0 0 303 630">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: #424242;
+      }
+
+      .cls-2 {
+        fill: #dedede;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #b4b4b4;
+        font-family: JosefinSans-Regular, Josefin Sans;
+      }
+
+      .cls-3 {
+        font-size: 15px;
+      }
+
+      .cls-4 {
+        font-size: 10px;
+      }
+
+      .cls-5 {
+        stroke: #393636;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+
+      .cls-7 {
+        fill: none;
+      }
+
+      .cls-8 {
+        filter: url(#Rectangle_393);
+      }
+
+      .cls-9 {
+        filter: url(#Rectangle_146);
+      }
+
+      .cls-10 {
+        filter: url(#Rectangle_257);
+      }
+    </style>
+    <filter id="Rectangle_257" x="0" y="291" width="303" height="56" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_146" x="0" y="0" width="303" height="56" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_393" x="0" y="561" width="303" height="69" filterUnits="userSpaceOnUse">
+      <feOffset dy="-6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_58" data-name="Group 58" transform="translate(-7001 -3137)">
+    <path id="Rectangle_17" data-name="Rectangle 17" class="cls-1" d="M8,0H277a8,8,0,0,1,8,8V566a15,15,0,0,1-15,15H15A15,15,0,0,1,0,566V8A8,8,0,0,1,8,0Z" transform="translate(7010 3143)"/>
+    <g class="cls-10" transform="matrix(1, 0, 0, 1, 7001, 3137)">
+      <path id="Rectangle_257-2" data-name="Rectangle 257" class="cls-1" d="M8,0H277a8,8,0,0,1,8,8V38a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V8A8,8,0,0,1,8,0Z" transform="translate(9 297)"/>
+    </g>
+    <path id="Icon_ionic-ios-close-circle" data-name="Icon ionic-ios-close-circle" class="cls-2" d="M9.616,3.375a6.241,6.241,0,1,0,6.241,6.241A6.24,6.24,0,0,0,9.616,3.375Zm1.581,8.5L9.616,10.295,8.035,11.876a.48.48,0,1,1-.678-.678L8.938,9.616,7.357,8.035a.48.48,0,1,1,.678-.678L9.616,8.938,11.2,7.357a.48.48,0,0,1,.678.678L10.295,9.616,11.876,11.2a.482.482,0,0,1,0,.678A.476.476,0,0,1,11.2,11.876Z" transform="translate(7015.143 3444.766)"/>
+    <g class="cls-9" transform="matrix(1, 0, 0, 1, 7001, 3137)">
+      <path id="Rectangle_146-2" data-name="Rectangle 146" class="cls-1" d="M8,0H277a8,8,0,0,1,8,8V38a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V8A8,8,0,0,1,8,0Z" transform="translate(9 6)"/>
+    </g>
+    <text id="Participent" class="cls-3" transform="translate(7113 3156)"><tspan x="0" y="11">Participent</tspan></text>
+    <path id="Icon_ionic-ios-close-circle-2" data-name="Icon ionic-ios-close-circle" class="cls-2" d="M9.616,3.375a6.241,6.241,0,1,0,6.241,6.241A6.24,6.24,0,0,0,9.616,3.375Zm1.581,8.5L9.616,10.295,8.035,11.876a.48.48,0,1,1-.678-.678L8.938,9.616,7.357,8.035a.48.48,0,1,1,.678-.678L9.616,8.938,11.2,7.357a.48.48,0,0,1,.678.678L10.295,9.616,11.876,11.2a.482.482,0,0,1,0,.678A.476.476,0,0,1,11.2,11.876Z" transform="translate(7015.143 3151.142)"/>
+    <text id="Chat_" data-name="Chat " class="cls-4" transform="translate(7140 3449)"><tspan x="0" y="8">Chat </tspan></text>
+    <g class="cls-8" transform="matrix(1, 0, 0, 1, 7001, 3137)">
+      <g id="Rectangle_393-2" data-name="Rectangle 393" class="cls-5" transform="translate(9 576)">
+        <rect class="cls-6" width="285" height="51"/>
+        <rect class="cls-7" x="0.5" y="0.5" width="284" height="50"/>
+      </g>
+    </g>
+    <g id="Rectangle_394" data-name="Rectangle 394" class="cls-5" transform="translate(7010 3713)">
+      <rect class="cls-6" width="57" height="51"/>
+      <rect class="cls-7" x="0.5" y="0.5" width="56" height="50"/>
+    </g>
+  </g>
+</svg>

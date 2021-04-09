@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="myfriend.css">
+<script src="myscrip.js"></script>
+
+
+
+<body>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="library.html">My list</a>
+    <a href="myvocab.html">My Vocab</a>
+    <a href="friendlist.html">My friend</a>
+    <div class="userprofile"><img class="avatar" src="avatar.png">
+        <p>Fay Lee</p></div>
+</div>
+
+
+    <div class="librarycontainer">
+    <h2>My Friend</h2> 
+<div class="search-container">
+    <img class="searchicon" src="searchicon.svg">
+    <form action="/action_page.php">
+      <input class="search" type="text" placeholder="Search.." name="search">
+    </form>
+  </div>
+    </div>
+    
+    <div class="cardlist">
+
+        <div class="vertical-card">
+          <h2>Call History</h2>
+
+          <div class="addfriend" id="addf" style="display: none;">
+            <img src="smile.svg" class="pop">
+            <h5>Send friend request to Jaya?</h5>
+            <button class="btnstyle" id="no">No</button>
+            <button class="btnstyle"onclick="yes()">Yes</button>
+          </div>
+
+          <div class="blockf" id="blocku" style="display: none;" >
+            <img src="block.svg" class="pop">
+            <h5>Do you want to block Jaya?</h5>
+            <button class="btnstyle" id="no"onclick="no()">No</button>
+            <button class="btnstyle">Yes</button>
+          </div>
+
+          <div class="report" id="reportu" style="display: none;">
+            <button class="nope" onclick="cancel()"></button>
+            <h5>Do you want to block Jaya?</h5>
+            
+          <button class="tag" onclick="addReport(event)"> Fruad </button>
+          <button class="tag" onclick="addReport(event)" > Showing disruptive content</button>
+          <button class="tag" onclick="addReport(event)">Controversial speech </button>
+          <button class="tag" onclick="addReport(event)">sexual content</button>
+          <button class="tag" onclick="addReport(event)">Harassing user</button>
+          <button class="tag" onclick="addReport(event)">Other</button>
+        
+        <h5> report detail</h5>
+        <form class="reportdetail"><input type="text"></form>
+        <button class="btnstyle" onclick="cancel()" id="sendit">Send</button>
+
+
+            </div>
+
+          <div class="usercard">
+            <div id="name">
+            <img src="jaya.svg" class="useravatars">
+            <p class="calltime">Jaya Rosen</p>
+        </div>
+        <div class="calltime">
+         
+        <p>Last call: 14/11/2020</p>
+        <p>Call time: 90min</p>
+      </div>
+      <div class="buttonfriend">
+          <button class="friendfunction"onclick="report()" >
+            <img src="report.svg" class="friendbtn">
+          </button>
+          <button class="friendfunction">
+          <img src="block.svg" class="friendbtn" onclick="block()"></button>
+          <button class="friendfunction"onclick="myFun()">
+          <img src="add.svg" class="friendbtn"></button>
+          
+        </div>
+    </div>
+
+    <div class="usercard">
+      <div id="name">
+      <img src="holt.svg" class="useravatars">
+      <p class="calltime">Halt Calder</p>
+  </div>
+  <div class="calltime">
+   
+  <p>Last call: 14/11/2020</p>
+  <p>Call time: 90min</p>
+</div>
+<div class="buttonfriend">
+    <button class="friendfunction">
+      <img src="report.svg" class="friendbtn">
+    </button>
+    <button class="friendfunction">
+    <img src="block.svg" class="friendbtn"></button>
+    <button class="friendfunction">
+    <img src="add.svg" class="friendbtn"></button>
+    
+  </div>
+</div>
+<div class="usercard">
+  <div id="name">
+  <img src="janiffer.svg" class="useravatars">
+  <p class="calltime">Jenifer Caro</p>
+</div>
+<div class="calltime">
+
+<p>Last call: 14/11/2020</p>
+<p>Call time: 90min</p>
+</div>
+<div class="buttonfriend">
+<button class="friendfunction">
+  <img src="report.svg" class="friendbtn">
+</button>
+<button class="friendfunction">
+<img src="block.svg" class="friendbtn"></button>
+<button class="friendfunction">
+<img src="add.svg" class="friendbtn"></button>
+
+</div>
+</div>
+<div class="usercard">
+  <div id="name">
+  <img src="jonas.svg" class="useravatars">
+  <p class="calltime">Jon Rahman</p>
+</div>
+<div class="calltime">
+
+<p>Last call: 14/11/2020</p>
+<p>Call time: 90min</p>
+</div>
+<div class="buttonfriend">
+<button class="friendfunction">
+  <img src="report.svg" class="friendbtn">
+</button>
+<button class="friendfunction">
+<img src="block.svg" class="friendbtn"></button>
+<button class="friendfunction">
+<img src="add.svg" class="friendbtn"></button>
+
+</div>
+</div>
+<div class="usercard">
+  <div id="name">
+  <img src="jenna.svg" class="useravatars">
+  <p class="calltime">Jenna Robin</p>
+</div>
+<div class="calltime">
+
+<p>Last call: 14/11/2020</p>
+<p>Call time: 90min</p>
+</div>
+<div class="buttonfriend">
+<button class="friendfunction">
+  <img src="report.svg" class="friendbtn">
+</button>
+<button class="friendfunction">
+<img src="block.svg" class="friendbtn"></button>
+<button class="friendfunction">
+<img src="add.svg" class="friendbtn"></button>
+
+</div>
+</div>
+
+<div class="usercard">
+  <div id="name">
+  <img src="julia.svg" class="useravatars">
+  <p class="calltime">Julia Robin</p>
+</div>
+<div class="calltime">
+
+<p>Last call: 14/11/2020</p>
+<p>Call time: 90min</p>
+</div>
+<div class="buttonfriend">
+<button class="friendfunction">
+  <img src="report.svg" class="friendbtn">
+</button>
+<button class="friendfunction">
+<img src="block.svg" class="friendbtn"></button>
+<button class="friendfunction">
+<img src="add.svg" class="friendbtn"></button>
+
+</div>
+</div>
+
+
+</div>
+<div class="friendlistContainer" >
+  <h2>Friend List</h2>
+  <button class="addgroup" onclick="chooseUser()"><img src="addgroup.svg"></button>
+
+<div class="chatbox" id="chatWith" >
+  
+  <div class="chatinterac">
+    
+    <button class="chatfunc"><img src="Fullscreen.svg"></button>
+    <button class="chatfunc"><img src="Videocall.svg"></button>
+    <button class="chatfunc"><img src="audiocall.svg"></button>
+    <button id="closechat" class="chatfunc" onclick="closeChat()"><img src="close.svg"></button>
+    
+  </div>
+
+  <img src="chatbox.svg"  class="chatsyle">
+   
+</div>
+
+
+
+<button class="chatcard" onclick="bringChat()">
+  
+  <img  src="lindsay.svg"  class="favatar">
+  <h5>Lindsay Johnson</h5>
+  <p>Lindsay: Yes of course! Call me again if you need anything</p>
+  <p>6:30PM</p>
+</button> 
+  <button class="chatcard">
+    
+    <img  src="holt.svg"  class="favatar">
+    <h5>Halt Calder </h5>
+    <p>Halt:I would like to talk to you again soon, contact me…</p>
+    <p>6:30PM</p>
+  </button>
+    <button class="chatcard">
+     
+      <img  src="jonas.svg"  class="favatar">
+      <h5>Jon Rahman </h5>
+      <p>Lindsay: Yes of course! Call me again if you need anything</p>
+      <p>6:30PM</p>
+    </button> 
+       <button class="chatcard">
+        
+        <img  src="yomi.svg"  class="favatar">
+        <h5 >Youmi Kutoshi </h5>
+        <p>Lindsay: Yes of course! Call me again if you need anything</p>
+        <p>6:30PM</p>
+       </button>
+        <button class="chatcard">
+       
+          <img  src="haley.svg"  class="favatar">
+          <h5>Haley Robinson </h5>
+          <p>Lindsay: Yes of course! Call me again if you need anything</p>
+          <p>6:30PM</p>
+        </button>
+          <button class="chatcard">
+          
+            <img  src="yuhua.svg"  class="favatar">
+            <h5>YuHua Ling </h5>
+            <p>Lindsay: Yes of course! Call me again if you need anything</p>
+            <p>6:30PM</p>
+          </button>
+</div>
+ </div>
+ 
+        <div class="footer"></div>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="315" height="333" viewBox="0 0 315 333">
+  <g id="Group_87" data-name="Group 87" transform="translate(-130 -602)">
+    <path id="Rectangle_39" data-name="Rectangle 39" d="M8,0H307a8,8,0,0,1,8,8V333a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V8A8,8,0,0,1,8,0Z" transform="translate(130 602)" fill="#424242" opacity="0.926"/>
+    <text id="Microphone_Volume_input" data-name="Microphone Volume input" transform="translate(161 673.953)" fill="#fff" font-size="10" font-family="JosefinSans-Regular, Josefin Sans"><tspan x="0" y="8">Microphone Volume input</tspan></text>
+    <rect id="Rectangle_82" data-name="Rectangle 82" width="251" height="7" rx="3.5" transform="translate(161 691.953)" fill="#939393"/>
+    <text id="Chat_update_notification" data-name="Chat update notification" transform="translate(176 816.953)" fill="#fff" font-size="11" font-family="JosefinSans-Regular, Josefin Sans"><tspan x="0" y="8">Chat update notification</tspan></text>
+    <g id="Rectangle_85" data-name="Rectangle 85" transform="translate(398 815.953)" fill="#fff" stroke="#dedede" stroke-width="1">
+      <rect width="14" height="14" stroke="none"/>
+      <rect x="0.5" y="0.5" width="13" height="13" fill="none"/>
+    </g>
+    <text id="Allow_new_users_join_private_chat_room" data-name="Allow new users join private chat room" transform="translate(176 841.953)" fill="#fff" font-size="11" font-family="JosefinSans-Regular, Josefin Sans"><tspan x="0" y="8">Allow new users join private chat room</tspan></text>
+    <text id="Turn_off_partner_paring" data-name="Turn off partner paring" transform="translate(176 865.953)" fill="#fff" font-size="11" font-family="JosefinSans-Regular, Josefin Sans"><tspan x="0" y="8">Turn off partner paring</tspan></text>
+    <text id="Turn_off_camera_when_joining_a_room" data-name="Turn off camera when joining a room" transform="translate(176 890.953)" fill="#fff" font-size="11" font-family="JosefinSans-Regular, Josefin Sans"><tspan x="0" y="8">Turn off camera when joining a room</tspan></text>
+    <circle id="Ellipse_20" data-name="Ellipse 20" cx="3" cy="3" r="3" transform="translate(161 819.953)" fill="#dedede"/>
+    <rect id="Rectangle_268" data-name="Rectangle 268" width="94" height="7" rx="3.5" transform="translate(161 691.953)" fill="#ef4c23"/>
+    <text id="Microphone_Volume_output" data-name="Microphone Volume output" transform="translate(161 712.953)" fill="#fff" font-size="10" font-family="JosefinSans-Regular, Josefin Sans"><tspan x="0" y="8">Microphone Volume output</tspan></text>
+    <rect id="Rectangle_269" data-name="Rectangle 269" width="251" height="7" rx="3.5" transform="translate(161 730.953)" fill="#939393"/>
+    <rect id="Rectangle_270" data-name="Rectangle 270" width="94" height="7" rx="3.5" transform="translate(161 730.953)" fill="#ef4c23"/>
+    <circle id="Ellipse_92" data-name="Ellipse 92" cx="3.5" cy="3.5" r="3.5" transform="translate(248 730.953)" fill="#121212"/>
+    <text id="Video_volume_" data-name="Video volume " transform="translate(161 751.953)" fill="#fff" font-size="10" font-family="JosefinSans-Regular, Josefin Sans"><tspan x="0" y="8">Video volume </tspan></text>
+    <circle id="Ellipse_94" data-name="Ellipse 94" cx="3.5" cy="3.5" r="3.5" transform="translate(248 691.953)" fill="#121212"/>
+    <rect id="Rectangle_271" data-name="Rectangle 271" width="251" height="7" rx="3.5" transform="translate(161 769.953)" fill="#939393"/>
+    <rect id="Rectangle_272" data-name="Rectangle 272" width="94" height="7" rx="3.5" transform="translate(161 769.953)" fill="#ef4c23"/>
+    <circle id="Ellipse_95" data-name="Ellipse 95" cx="3.5" cy="3.5" r="3.5" transform="translate(248 769.953)" fill="#121212"/>
+    <text id="Volume_setting" data-name="Volume setting" transform="translate(161 652.953)" fill="#b4b4b4" font-size="11" font-family="JosefinSans-Regular, Josefin Sans"><tspan x="0" y="8">Volume setting</tspan></text>
+    <text id="Partner_setting" data-name="Partner setting" transform="translate(161 796.953)" fill="#b4b4b4" font-size="11" font-family="JosefinSans-Regular, Josefin Sans"><tspan x="0" y="8">Partner setting</tspan></text>
+    <circle id="Ellipse_96" data-name="Ellipse 96" cx="3" cy="3" r="3" transform="translate(161 841.953)" fill="#dedede"/>
+    <circle id="Ellipse_97" data-name="Ellipse 97" cx="3" cy="3" r="3" transform="translate(161 865.953)" fill="#dedede"/>
+    <circle id="Ellipse_98" data-name="Ellipse 98" cx="3" cy="3" r="3" transform="translate(161 893.953)" fill="#dedede"/>
+    <g id="Rectangle_273" data-name="Rectangle 273" transform="translate(398 840.953)" fill="#fff" stroke="#dedede" stroke-width="1">
+      <rect width="14" height="14" stroke="none"/>
+      <rect x="0.5" y="0.5" width="13" height="13" fill="none"/>
+    </g>
+    <g id="Rectangle_274" data-name="Rectangle 274" transform="translate(398 865.953)" fill="#fff" stroke="#dedede" stroke-width="1">
+      <rect width="14" height="14" stroke="none"/>
+      <rect x="0.5" y="0.5" width="13" height="13" fill="none"/>
+    </g>
+    <g id="Rectangle_275" data-name="Rectangle 275" transform="translate(398 890.953)" fill="#fff" stroke="#dedede" stroke-width="1">
+      <rect width="14" height="14" stroke="none"/>
+      <rect x="0.5" y="0.5" width="13" height="13" fill="none"/>
+    </g>
+  </g>
+</svg>

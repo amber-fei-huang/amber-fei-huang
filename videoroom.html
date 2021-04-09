@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="videoroom.css">
+<script src="myscrip.js"></script>
+
+
+<body>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="library.html">My list</a>
+    <a href="myvocab.html">My Vocab</a>
+    <a href="friendlist.html">My friend</a>
+    <div class="userprofile"><img class="avatar" src="avatar.png">
+        <p>Fay Lee</p></div>
+
+
+<div class="close"> 
+  <a href="index.html">
+  <h1> <img src="closevideoicon.png"> Exit video</h1>
+</a>
+</div>
+<div class="videocontainer">
+
+  
+
+  <div class="vidobox">
+    <div class="vidsetting"id="videoSet"> 
+      <button class="closeset" onclick="closeSetting()"><img src="close.svg" id="closeseton"></button>
+    </div>
+    <div id="popup"  style="display:block;">
+
+      <h1>Do you want to watch with a language partner?</h1>
+      <p>Communication will help you learn faster</p>
+      <button  class="buttonone">no</button>
+      <button  onclick= "myFunction()" class="buttontwo">yes</button>
+    </div>
+    <div class="flower"  id="flowcard">
+        <button class="controlvocab" onclick="closecard()">
+          <img id="closeflower" src="close.svg">
+        </button>
+        <button class="controlvocab">
+        <img id="star" src="star.svg">
+      </button>
+  
+      <h3>flower 花朵</h3>
+      <h7>Noun</h7>
+      <p>the seed-bearing part of a plant, consisting of reproductive organs (stamens and carpels)<br>
+         that are typically surrounded by a brightly colored corolla (petals) and a green calyx (sepals).</p>
+         <img class="vocabcard" src="flower.svg">
+    </div>
+    <button class="sub" id="title"style="display:none;" onclick="openFlower()"><h2>当我们想到花朵时我们会想到美好的东西。<br>
+      When we think about flower we think about beautiful things.</h2></button>
+    <div class="jaya" id="partner"><img src="Jayavid.svg" class="jayarose"></div>  
+  <img src="video.png"class="videopic">
+<div class="functionbar">
+ <button class="btn" onclick="openSet()" >  <img src="settingicon.png" class="btnsize"></button>
+ <button class="btn" >  <img src="micicon.png"class="btnsize"></button>
+ <button class="btn" >  <img src="videoicon.png"class="btnsize"></button>
+ <button class="btn" onclick="myFunc()"><img src="subtitleicon.png"class="btnsize"></button>
+ <button class="btn" ><img src="markericon.png"class="btnsize"></button>
+ 
+</div>
+
+</div>
+
+<div class="chatcontainer"> 
+
+
+
+   <div class="parbox">
+      <div class="parlist"><img src="avatar.png" class="Paravatar"><p>Fay Lee</p></div>
+      <div class="parlist"><img src="avatarone.svg" class="Paravatar"><p>Jaya Rosen</p></div>
+      <button class="addpar"  onclick="inviteUser()" ><img src="addpar.png"class="addbtn">add participents</button>
+    </div>
+    <div class="addfriend" id="grabit">
+      <div id="addusertitle"><p>Invite</p>
+        <div class="dmslider"><img src="invitelist.svg" class="inviteuser"></div>
+      </div>
+      
+      
+    </div>
+  <div class="smilebox">
+    <span class="emojipan" id="emojilist" ></span>
+    <button class="emoji" onclick="showUp(event)" ><img src="smile.svg"class="addbtn"> 
+    </button>
+  </div>
+
+
+ 
+
+
+</div>
+
+</div>
+
+
+  <div class="footer"></div>
+
+</body>
+</html>

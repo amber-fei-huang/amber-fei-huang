@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #939393;
+      }
+    </style>
+  </defs>
+  <path id="Icon_material-report" data-name="Icon material-report" class="cls-1" d="M27.131,4.5H13.869L4.5,13.869V27.131L13.869,36.5H27.131L36.5,27.131V13.869ZM20.5,29.922a2.311,2.311,0,1,1,2.311-2.311A2.307,2.307,0,0,1,20.5,29.922Zm1.778-7.645H18.722V11.611h3.556Z" transform="translate(-4.5 -4.5)"/>
+</svg>

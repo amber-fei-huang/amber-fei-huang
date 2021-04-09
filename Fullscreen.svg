@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="40.059" viewBox="0 0 50 40.059">
+  <g id="Group_81" data-name="Group 81" transform="translate(-1563 -631.839)">
+    <path id="Icon_material-fullscreen" data-name="Icon material-fullscreen" d="M10.217,19.726H7.5v6.792h6.792V23.8H10.217ZM7.5,14.292h2.717V10.217h4.075V7.5H7.5ZM23.8,23.8H19.726v2.717h6.792V19.726H23.8ZM19.726,7.5v2.717H23.8v4.075h2.717V7.5Z" transform="translate(1570.848 624.339)" fill="#d3d3d3"/>
+    <text id="Full_screen" data-name="Full screen" transform="translate(1563 660.898)" fill="#fff" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="9">Full screen</tspan></text>
+  </g>
+</svg>

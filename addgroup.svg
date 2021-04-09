@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="142.609" height="24" viewBox="0 0 142.609 24">
+  <g id="Group_86" data-name="Group 86" transform="translate(-1672.391 -248)">
+    <path id="Icon_material-group-add" data-name="Icon material-group-add" d="M12.406,15.254H7.754V10.6h-3.1v4.652H0v3.1H4.652v4.652h3.1V18.355h4.652ZM27.913,16.8A4.652,4.652,0,1,0,26.5,7.717a7.652,7.652,0,0,1,1.4,4.435,7.8,7.8,0,0,1-1.4,4.435A4.636,4.636,0,0,0,27.913,16.8Zm-7.754,0a4.652,4.652,0,1,0-4.652-4.652A4.633,4.633,0,0,0,20.16,16.8Zm10.266,3.35a5.738,5.738,0,0,1,2.14,4.4v3.1h4.652v-3.1C37.218,22.17,33.543,20.7,30.426,20.154ZM20.16,19.906c-3.1,0-9.3,1.551-9.3,4.652v3.1H29.464v-3.1C29.464,21.457,23.261,19.906,20.16,19.906Z" transform="translate(1672.391 241.42)" fill="#ef4c23"/>
+    <rect id="Rectangle_214" data-name="Rectangle 214" width="97" height="24" rx="12" transform="translate(1718 248)" fill="#ef4c23"/>
+    <text id="Set_up_a_group" data-name="Set up a group" transform="translate(1730 252)" fill="#fff" font-size="12" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="11">Set up a group</tspan></text>
+  </g>
+</svg>

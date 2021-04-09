@@ -1,0 +1,278 @@
+////////////////*********** popup ********************///////////////////////////////////
+
+#popup{
+    z-index: 10;
+    width: max-content;
+    background-color: $background;
+    border-radius:  30px;
+    text-align: center;
+    padding:40px;
+    position: absolute;
+    margin: 240px;
+    
+    h1{
+        font-size: 20px;
+        margin-top: -10px;
+      
+    }
+    p{
+        font-size: 15px;
+    }
+}
+.buttonone{
+    background-color: $draygrey;
+    color: #ffffff;
+    font-family: $font;
+    cursor: pointer;
+    border-radius: 10px;
+    width: max-content;
+    font-size: 18px;
+    padding:10px 33px 10px 33px;
+    float: left;
+    margin-left: 100px;
+    border: none;
+
+}
+.buttontwo{
+    background-color: $accent;
+    color: #ffffff;
+    font-family: $font;
+    cursor: pointer;
+    border-radius: 10px;
+    width: max-content;
+    font-size: 18px;
+    padding:10px 30px 10px 30px;
+    float: right;
+    margin-right: 100px;
+    border: none;
+}
+//////////Subtitle and vocab////////
+
+.controlvocab{
+    background-color: #000000;
+    border: none;
+    margin-top: -20px;
+}
+#star{
+float: right;
+width: 20px;
+cursor: pointer;
+}
+#closeflower{
+    width: 20px;
+    margin-right: 1000px;
+    margin-left: -30px;
+    cursor: pointer;
+}
+.flower{
+width: 1050px;
+height: 180px;
+background-color: #000;
+position: absolute;
+margin-top: 310px;
+padding-left: 50px;
+padding-top: 20px;
+display: none;
+p{
+    margin-left: -10px;
+}
+
+}
+.vocabcard{
+    float: right;
+    margin-top: -120px;
+    margin-right: 50px;
+}
+.sub{
+    display: flex;
+    z-index: 13;
+    text-align: center;
+    position: absolute;
+    margin-top: 440px;
+    margin-left: 200px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+////////////////*********** video  ********************///////////////////////////////////
+.close{
+    margin-left: 40px;
+}
+.videopic{
+    width: 100%;
+    height: auto;
+    display: flex;
+    z-index: 0;
+
+}
+.videocontainer{
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: space-between;
+    display: flex;
+    float: left;
+    position:relative;
+    z-index: 2;
+
+}
+.functionbar{
+    margin-top: -30px;
+    margin-left: 16px;
+    display: flex;
+    z-index: 1;
+}
+.btn{
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: Transparent;
+    
+         
+}
+.videopic{
+    z-index: 0;
+}
+.btnsize{
+    width: auto;
+    height: 20px;
+    
+
+}
+.videobox{
+    margin: 0;
+}
+
+////////////////*********** Chatboxes ********************///////////////////////////////////
+.chatcontainer{
+    width: 30%;
+    height: auto;
+    background-image: url("../chatbg.svg");
+    background-repeat: no-repeat;
+    margin-top: -10px;
+    
+    
+}
+.parbox{
+    margin-top: 70px;
+}
+
+.parlist{
+    margin-left: 20px;
+    display: flex;
+    p{
+        margin-top: 10px;
+    }
+}
+.Paravatar{
+    width: 35px;
+    height: 35px;
+}
+.addpar{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: $font;
+    margin-left: 15px;
+    margin-top: 10px;
+   width: max-content;
+   cursor: pointer;
+}
+.addbtn{
+    margin-right: 10px;
+}
+.smilebox{
+    margin-top: 250px;
+    position: absolute;
+    bottom: 5px;
+}
+.emoji{
+    margin-top: 5px;
+    margin-left: 17px;
+    background:transparent;
+    border: none;
+    cursor: pointer;
+    
+}
+
+ 
+.emojipan{
+
+    width: 290px;
+    height: 120px;
+    z-index: 13;
+    position: absolute;
+    background-image: url("../emoji.svg");
+    display: none;
+    bottom: 40px;
+
+}
+.emojilist-show{
+    display: block;
+}
+
+.emojipan .show {
+    display: block;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+
+  ///////invite user to the chatroom/////
+  .addfriend{
+      width: 283px;
+      height: 270px;
+      display: none;
+      position: absolute;
+      background-color:$draygrey;
+      border-radius: 8px;
+      overflow-y: auto;
+      
+  
+ 
+  }
+  #addusertitle{
+      width: inherit;
+      height: 25px;
+      background-color: grey;
+      border-radius: 8px  8px 0 0;
+      padding-top: 5px;
+      padding-left: 40%;
+      box-shadow: 0 3px 3px #000000;
+    
+
+      
+  }
+  .dmslider{
+  width: inherit;
+  height: auto;
+    margin-top: -10px;
+    margin-left: -120px;
+    
+    
+  }
+  /////video setting////
+  .vidsetting{
+      background-image: url("../videosetting.svg");
+      position: absolute;
+      width: 315px;
+      height: 333px;
+      margin-top: 230px;
+      display: none;
+      
+  }
+  .closeset{
+    width: 20px;
+   margin-top: 10px;
+background-color: transparent;
+    cursor: pointer;
+    border: none;
+  }
+  .jaya{
+      position: absolute;
+      margin-left: 170px;
+      display: none;
+  }
+  .jayarose{
+      width: 194px;
+  }

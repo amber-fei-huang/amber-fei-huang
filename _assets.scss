@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap'); 
+
+
+
+//Colors
+$background: #212121;
+$accent: #EF4C23;
+$fontcolor: #FFFFFF;
+$draygrey: #3C3C3C;
+$grey: #605F5F ;
+$lightgrey: #D3D3D3; 
+
+//Fonts
+$font: 'Roboto', sans-serif;
+$strong: 700;
+
+
+body {
+    margin:0;
+    padding:0;
+    width: 100%;
+    background-color: $background;
+}
+h1, h2, h3, h4, h5, p {
+    color: $fontcolor;
+    margin:0;
+    padding:0;
+}
+
+h1 {
+
+    font-family: $font;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+h2 {
+    font-family: $font;
+    font-size: 25px;
+    font-weight: 400;  
+    margin: 20px;
+}
+
+h3 {
+    font-family: $font;
+    font-size: 20px;
+    font-weight: 700; 
+}
+
+h4 {
+    font-family: $font;
+    font-size: 20px;
+    font-weight: 700; 
+    color: $lightgrey; 
+}
+
+h5 {
+    font-family: $font;
+    font-size: 15px;
+    font-weight: 700; 
+    color: $fontcolor; 
+   
+}
+h6{
+    font-family: $font;
+    font-size: 15px;
+    font-style:italic;
+    color: $fontcolor;
+    margin-left: 20px;
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+
+
+p {
+    font-family: $font;
+    font-size: 15px;
+    font-weight: 400; 
+    padding: 0px 10px 20px 10px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+h7{
+    font-family: $font;
+    font-size: 13px;
+    color: $fontcolor;
+    margin-bottom: 10px;
+}

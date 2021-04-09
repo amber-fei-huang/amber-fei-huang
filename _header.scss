@@ -1,0 +1,266 @@
+
+
+
+@import "assets.scss" ;
+
+/****************** NAVBAR *******************/
+.navbar{
+    font-family: $font;
+    font-size: 22px;
+    color:$fontcolor;
+    margin: 80px;
+    
+
+  a {
+      padding-left: 40px;
+      color:$fontcolor;
+      
+  }
+
+}
+.userprofile{
+    display: flex;
+    float:right;
+    p{
+        margin-top: 15px;
+    }
+  
+}
+.avatar{
+    
+    width: 45px;
+    height: 45px;}
+
+
+
+.header {
+    background-image: url("../header.png");
+    width: 80%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 200px;
+    padding: 70px 10% 70px 10%;
+    
+    p {
+        padding-left: 20px;
+        max-width: 280px;
+
+    }
+
+    .button {
+        margin-left: 30px;
+    }
+}
+
+
+
+
+////////////////*********** BUTTONS ********************///////////////////////////////////
+
+.button {
+    background-color: $accent;
+   
+    padding: 10px 40px 10px 40px;
+    width: max-content;
+    font-family: $font;
+    color: $fontcolor;
+    font-size:15px;
+    font-weight: 700;
+    cursor:pointer;
+    border-radius: 5px;
+    
+
+    transform: scale(1.2);
+    transition: all .2s;
+}
+
+.button:hover {
+    background-color: $lightgrey;
+    color: $accent;
+
+    transition: all .2s;
+    transform: scale(1.2); 
+
+}
+
+//////////////*********** CONTAINER ******************///////////////////
+.mamacontainer {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+////////////////*********** TAGS ********************///////////////////////////////////
+
+
+.Topictab {
+    display:flex;
+    justify-content: space-between;
+
+    padding: 20px 0px 20px 0px; 
+
+}
+
+.tagcon {
+    display:flex;
+    padding-top:20px;
+
+    h2 {
+        margin:0;
+    }
+    
+}
+.tags {
+   margin-left: 24px;
+    border-radius: 8px;
+    width: max-content;
+    height: max-content;
+    padding: 10px 20px 10px 20px;
+    background-color: $grey;
+
+    font-family: $font;
+    font-size: 15px;
+    font-weight: 400; 
+}
+
+
+
+
+
+/****************** SEARCH *******************/
+.search-container{
+  
+    display:flex;
+    /*justify-content: space-between;*/
+    padding: 20px 0px 20px 0px; 
+   .search{
+
+       color: $fontcolor;
+       background-color: $grey;
+       border-radius: 8px;
+       border:none;
+   }
+ 
+    
+}
+
+.searchicon{
+   
+    margin-right: 20px;
+    width: 20px;
+    height:35px;
+    cursor:pointer;
+ 
+ }
+
+ 
+input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+  }
+  input[type=text] {
+    border: 1px solid #ccc;  
+  }
+
+
+  /****************** VIDEO SELECTION *******************/
+.videolisCon {
+    display: flex;
+    justify-content: space-between;
+    
+    .video {
+        margin-top: 30px;
+        margin-right: 20px;
+       
+    }
+    .project_image {
+        opacity: 1;
+        width: 100%;
+        height:auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+}
+
+
+
+/********************/
+.content {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .content .content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  
+  .content:hover .content-overlay{
+    opacity: 1;
+  }
+  
+  .content-image{
+    width: 100%;
+  }
+  
+  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+  
+  .content-details h3{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+  
+  .content-details p{
+    color: #fff;
+    font-size: 0.8em;
+  }
+  
+ 
+
+
+  /********* FOOTER **************/
+
+  .footer {
+      width: 100%;
+      height: 100px;
+      color: $grey;
+  }
+
+  

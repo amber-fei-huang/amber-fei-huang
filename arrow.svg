@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.929" height="12.871" viewBox="0 0 19.929 12.871">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="Icon_awesome-angle-down" data-name="Icon awesome-angle-down" class="cls-1" d="M8.908,23.172.436,14.7a1.489,1.489,0,0,1,0-2.112l1.408-1.408a1.489,1.489,0,0,1,2.112,0l6.005,6.005,6.005-6.005a1.489,1.489,0,0,1,2.112,0l1.408,1.408a1.489,1.489,0,0,1,0,2.112l-8.472,8.472A1.481,1.481,0,0,1,8.908,23.172Z" transform="translate(0.004 -10.74)"/>
+</svg>

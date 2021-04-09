@@ -1,0 +1,88 @@
+.vocabcontainer{
+
+    width: 100%;
+    height: auto;
+    position: relative;
+  
+
+}
+.vocabwrapper{
+    width: auto;
+    display: inline-block;
+    margin-left: 128px;
+}
+///// vocab cards////
+    
+.card{
+    width: 700px;
+    height: auto;
+    background-color:$draygrey;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    p{
+        font-size: 10px;
+    }
+
+
+}
+.meaning{
+    p{
+        margin-top: -18px;
+        margin-left: 20px;
+    }
+}
+.cardimg{
+    width: 229px;
+    height:130px;
+    float: right;
+    margin-top: -125px;
+    
+}
+.expandcad{
+    width: 40px;
+    height: 40px;
+    background-color:transparent;
+    border:none;
+    cursor: pointer;
+    margin-left: 375px;
+    background-image: url("../arrow.svg");
+    background-repeat: no-repeat;
+    transition: 0.4s  ease-in-out transform;
+    transform-origin: center center;
+}
+
+.expandcad-rotate{
+    transform: rotate(180deg);
+    
+}
+.studyhis{
+    width: auto;
+    height: 100px;
+    float: right;
+    position: relative;
+}
+
+.hiscard{
+    width: 80%;
+    height: auto;
+    position: sticky;
+    top:20px;
+}
+////vocab card expand////
+.synonymlist{
+    display:flex;
+}
+.contentcard{
+    display: none;
+ 
+   
+
+}
+.contentcard-show{
+display: block;
+
+}
+
